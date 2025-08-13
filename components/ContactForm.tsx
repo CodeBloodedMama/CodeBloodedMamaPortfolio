@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, ChangeEvent, FormEvent } from "react";
+import { motion } from "framer-motion";
+import { Suspense } from "react";
 
 type TLabels = {
   title: string; intro: string; name: string; email: string; subject: string; message: string;
@@ -41,6 +43,7 @@ export default function ContactForm({ lang, t }: { lang: "da" | "en"; t: TLabels
   };
 
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <form onSubmit={onSubmit} className="w-full bg-white/5 border border-white/10 p-6 rounded-2xl shadow-lg">
       <div className="grid md:grid-cols-2 gap-4">
         <div>
@@ -88,5 +91,6 @@ export default function ContactForm({ lang, t }: { lang: "da" | "en"; t: TLabels
         </p>
       )}
     </form>
+    </Suspense>
   );
 }
