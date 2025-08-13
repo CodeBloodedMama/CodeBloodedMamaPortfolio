@@ -1,20 +1,93 @@
 {
-  "lang": "da",
-  "brand": "CodeBloodedMama",
   "name": "Elisabeth Lennert",
-  "title": "Junior Software Engineer •  Full‑stack web and app developer",
-  "location": "Aarhus, Danmark",
-  "intro": "Passioneret softwareingeniør med fokus på moderne web, scanningsteknologi og API-drevne løsninger. Jeg elsker at bygge skalerbare systemer med lækkert UX — fra idé til deployment.",
+  "title": "Junior Software teknologi diplomingeniør",
   "links": {
     "email": "mailto:ElisabethBinzerLennert@gmail.com",
     "github": "https://github.com/CodeBloodedMama",
-    "linkedin": "https://www.linkedin.com/in/E-Lennert/"
+    "linkedin": "https://linkedin.com/in/E-Lennert"
   },
-  "badges": [
-    "Frontend",
-    "Backend",
-    "Software Design",
-    "AI/ML",
-    "IT Security"
-  ]
+  "cv": {
+    "name": "Elisabeth Lennert",
+    "title": "Junior Software teknologi diplomingeniør",
+    "downloadLabel": "Download CV (PDF)",
+    "highlightsLabel": "Højdepunkter",
+    "skillsLabel": "Færdigheder",
+    "experienceLabel": "Erfaring",
+    "educationLabel": "Uddannelse",
+    "projectsLabel": "Udvalgte projekter",
+    "languagesLabel": "Sprog",
+    "otherLabel": "Øvrigt",
+    "contactLabel": "Kontakt",
+    "downloadHref": "/Elisabeth_Lennert_CV.pdf",
+    "badges": ["Full-stack", "React/Next.js", "API-design", "CI/CD", "Scanning & I/O", "ML/AI"],
+    "skills": ["React","Next.js","TypeScript","Node.js","Docker","Kubernetes","Firebase","C#","Python","SQL"],
+    "experience": [
+      {
+        "role": "Softwareudvikler – Frontend",
+        "company": "BILLETTEN A/S",
+        "location": "Aarhus",
+        "from": "Mar 2025",
+        "to": "Jul 2025",
+        "bullets": [
+          "Udviklede cross-platform PWA i React/TypeScript til RFID/QR/Barcode scanning.",
+          "Byggede full-stack komponenter med fokus på I/O-workflows og UX.",
+          "Forbedrede indlukning og drift via bedre scanning/validering."
+        ]
+      },
+      {
+        "role": "Ingeniørpraktikant",
+        "company": "VESTAS A/S",
+        "location": "Aarhus N",
+        "from": "Jul 2023",
+        "to": "Dec 2023",
+        "bullets": [
+          "Intern API-løsning i Python/SQL til fejldiagnostik og automatisering.",
+          "Udviklede WPF-UI komponenter til converter wall.",
+          "Byggede WPF-app til parameteropslag med Python + eksisterende DB."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "Aarhus Universitet",
+        "degree": "Diplomingeniør i Softwarereteknologi (Webteknologi)",
+        "from": "2021",
+        "to": "2025",
+        "details": "Valgfag: IT-sikkerhed, Machine Learning, Web-arkitektur/Orkestrering, Mobilapp, UX."
+      },
+      {
+        "school": "Aalborg Universitet",
+        "degree": "Diplomingeniør i Kemi & Bioteknologi",
+        "from": "2017",
+        "to": "2020"
+      }
+    ],
+    "projects": [
+      {
+        "name": "SafeByte (Bachelorprojekt)",
+        "tech": "React (PWA), Firebase (Auth/RTDB/Storage), Barcode, Docker",
+        "linkText": "GitHub",
+        "linkHref": "https://github.com/CodeBloodedMama/SafeByte_react_bachelor",
+        "description": "Fuldstack fødevare-scanner til allergikere med real-time opslag og advarsler."
+      },
+      {
+        "name": "Event Scanning PWA (BILLETTEN)",
+        "tech": "React, TypeScript, Kamera/RFID, REST, CI/CD",
+        "description": "PWA til billet-/armbåndsscanning på mobil og Android-hardware."
+      }
+    ],
+    "languages": [
+      { "label": "Dansk", "level": "Modersmål" },
+      { "label": "Engelsk", "level": "Flydende" },
+      { "label": "Fransk", "level": "Begynder" },
+      { "label": "Kalaallisut", "level": "Begynder" }
+    ],
+    "other": [
+      "Kørekort: B"
+
+
+
+      
+    ]
+  }
 }

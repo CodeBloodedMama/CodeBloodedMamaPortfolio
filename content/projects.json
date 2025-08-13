@@ -3,7 +3,7 @@
     "slug": "safe-byte",
     "title": "SafeByte",
     "teaser": "PWA til allergiscanning og real-time opslag.",
-    "date": "2025-03-01",
+    "date": "2025-01-01",
     "category": "PWA",
     "stack": [
       "React",
@@ -15,8 +15,8 @@
     "md": "/content/projects/safe-byte.md",
     "links": [
       {
-        "label": "GitHub",
-        "url": "https://github.com/CodeBloodedMama/SafeByte_react_bachelor"
+        "label": "Vercel Deployment: prototype",
+        "url": "http://safe-byte-react-bachelor.vercel.app"
       }
     ]
   },

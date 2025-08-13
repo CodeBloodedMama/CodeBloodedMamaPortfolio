@@ -1,1 +1,1 @@
-export default function sitemap(){ return [{ url: 'https://your-domain.example/', lastModified: new Date() }]; }
+export default function sitemap(){ return [{ url: 'https://e-lennert.vercel.app/', lastModified: new Date() }]; }

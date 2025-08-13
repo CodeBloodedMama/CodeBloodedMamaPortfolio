@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Elisabeth Lennert — CodeBloodedMama",
-  url: "https://your-domain.example",
+  url: "https://e-lennert.vercel.app",
   description: "portfolio CV — FullStack Developer",
-  locale: "da_DK"
+  location: "da_DK"
 };

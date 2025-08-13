@@ -10,7 +10,7 @@ export async function POST(req: Request) {
 
     const RESEND_API_KEY = process.env.RESEND_API_KEY;
     const TO_EMAIL = process.env.TO_EMAIL || process.env.RESEND_FROM;
-    const FROM_EMAIL = process.env.RESEND_FROM; // 
+    const FROM_EMAIL = process.env.RESEND_FROM; 
 
     if (!RESEND_API_KEY || !FROM_EMAIL || !TO_EMAIL) {
       return NextResponse.json(
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
     }
 
    
-    const res = await fetch("https://api.resend.com/emails", {
+    const res = await fetch("https://e-lennert.vercell.app/contact", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${RESEND_API_KEY}`,
