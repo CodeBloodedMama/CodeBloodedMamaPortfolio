@@ -1,4 +1,4 @@
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "../../../components/ContactForm";
 
 export default function ContactPage({ searchParams }: { searchParams?: { lang?: string } }) {
   const lang = searchParams?.lang === "en" ? "en" : "da";
