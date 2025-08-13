@@ -83,7 +83,7 @@ export default function Nav() {
           : "bg-transparent"
       )}
     >
-      {/* WOW: super–slim progress bar */}
+      {/*super–slim progress bar */}
       <div
         className="h-[2px] bg-gradient-to-r from-indigo-400 via-blue-400 to-cyan-400 origin-left"
         style={{
@@ -94,16 +94,22 @@ export default function Nav() {
 
       <nav className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Brand med subtil glow on hover */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <img
-              src="/logo.png"
-              alt="CBM"
-              className="w-10 h-10 rounded-md transition-shadow group-hover:shadow-[0_0_24px_rgba(99,102,241,0.45)]"
-            />
-            <span className="font-semibold tracking-tight group-hover:opacity-90">
-              CodeBloodedMama
-            </span>
+         
+         {/* Brand med subtil glow on hover */}
+      <Link href="/" className="flex items-center gap-2 group">
+        <img
+          src="/logo.png"
+           alt="EL"
+           className="w-10 h-10 rounded-md transition-shadow group-hover:shadow-[0_0_24px_rgba(99,102,241,0.45)]"
+        />
+      <div className="flex flex-col leading-tight">
+        <span className="font-semibold tracking-tight group-hover:opacity-90">
+            Elisabeth Lennert
+        </span>
+       <span className="text-xs text-white/70 group-hover:opacity-90">
+         AKA CodeBloodedMama
+        </span>
+          </div>
           </Link>
 
           {/* Desktop links */}
