@@ -1,0 +1,20 @@
+{
+  "lang": "en",
+  "brand": "CodeBloodedMama",
+  "name": "Elisabeth Lennert",
+  "title": "Junior Software Engineer \u2022 Frontend / Full\u2011stack",
+  "location": "Aarhus, Denmark",
+  "intro": "Passionate software engineer focused on modern web, scanning tech and API-driven solutions. I build scalable systems with delightful UX \u2014 from idea to deployment.",
+  "links": {
+    "email": "mailto:ElisabethBinzerLennert@gmail.com",
+    "github": "https://github.com/CodeBloodedMama",
+    "linkedin": "https://www.linkedin.com/in/E-Lennert/"
+  },
+  "badges": [
+    "Frontend",
+    "Backend",
+    "Software Design",
+    "AI/ML",
+    "IT Security"
+  ]
+}

@@ -1,0 +1,1 @@
+export default function sitemap(){ return [{ url: 'https://your-domain.example/', lastModified: new Date() }]; }

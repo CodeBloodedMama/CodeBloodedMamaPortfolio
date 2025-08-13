@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "safe-byte",
+    "title": "SafeByte",
+    "teaser": "PWA til allergiscanning og real-time opslag.",
+    "date": "2025-03-01",
+    "category": "PWA",
+    "stack": [
+      "React",
+      "Firebase",
+      "Docker",
+      "Barcode"
+    ],
+    "image": "/projects/safe-byte.jpg",
+    "md": "/content/projects/safe-byte.md",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/CodeBloodedMama/SafeByte_react_bachelor"
+      }
+    ]
+  },
+  {
+    "slug": "workout-tracker",
+    "title": "Workout Tracker App",
+    "teaser": "Android/Kotlin app til træningslog og notifikationer.",
+    "date": "2024-10-01",
+    "category": "Mobile",
+    "stack": [
+      "Kotlin",
+      "Android",
+      "SQLite"
+    ],
+    "image": "/projects/workout-tracker.jpg",
+    "md": "/content/projects/workout-tracker.md"
+  },
+  {
+    "slug": "inventory-dashboard",
+    "title": "Inventory Management Dashboard",
+    "teaser": "Angular dashboard med filtrering og CRUD.",
+    "date": "2024-06-01",
+    "category": "Dashboard",
+    "stack": [
+      "Angular",
+      "TypeScript",
+      "REST"
+    ],
+    "image": "/projects/inventory-dashboard.jpg",
+    "md": "/content/projects/inventory-dashboard.md"
+  },
+  {
+    "slug": "portfolio-v1",
+    "title": "Portfolio Website v1",
+    "teaser": "Tidlig Next.js/Tailwind portfolio.",
+    "date": "2024-03-15",
+    "category": "Web App",
+    "stack": [
+      "Next.js",
+      "Tailwind",
+      "Vercel"
+    ],
+    "image": "/projects/portfolio-v1.jpg"
+  },
+  {
+    "slug": "pet-feeder",
+    "title": "Automatisk Foderdispenser",
+    "teaser": "IoT-system med PSoC og Raspberry Pi.",
+    "date": "2023-11-20",
+    "category": "IoT",
+    "stack": [
+      "C",
+      "C++",
+      "PSoC",
+      "Raspberry Pi",
+      "React"
+    ],
+    "image": "/projects/pet-feeder.jpg",
+    "md": "/content/projects/pet-feeder.md"
+  }
+]
