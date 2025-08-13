@@ -1,8 +1,11 @@
 'use client';
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Suspense } from "react";
+
 export default function HeroLanding({ name, title }:{ name:string; title:string; }){
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <section className="relative overflow-hidden bg-hero-gradient">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-10 left-10 w-24 h-24 rounded-full bg-white/5 blur-2xl animate-pulse"></div>
@@ -25,5 +28,6 @@ export default function HeroLanding({ name, title }:{ name:string; title:string;
         </motion.div>
       </div>
     </section>
+    </Suspense>
   );
 }
