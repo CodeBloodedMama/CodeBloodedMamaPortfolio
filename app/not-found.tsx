@@ -2,7 +2,6 @@
 
 import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import Layout from "@/components/Layout"; // samme layout som dine andre sider
 
 function NotFoundContent() {
   const searchParams = useSearchParams();
@@ -22,7 +21,6 @@ function NotFoundContent() {
   const t = translations[lang] || translations["en"];
 
   return (
-    <Layout>
       <div style={{ textAlign: "center", padding: "50px" }}>
         <h1>{t.title}</h1>
         <p>{t.description}</p>
@@ -30,7 +28,6 @@ function NotFoundContent() {
           {lang === "da" ? "Tilbage til forsiden" : "Back to Home"}
         </a>
       </div>
-    </Layout>
   );
 }
 

@@ -28,6 +28,8 @@ export default function Nav(){
           {navItem("/projects","Projekter","Projects")}
           {navItem("/blog","Blog","Blog")}
           {navItem("/contact", "Kontakt", "Contact")}
+          {navItem("/about", "Om mig", "About")}
+          {navItem("/not-found", "404", "404")}
 
           <button onClick={toggleLang} className="ml-2 px-3 py-2 rounded border border-white/20 hover:bg-white/10">{lang==="en"?"DA 🇩🇰":"EN 🇬🇧"}</button>
         </div>
