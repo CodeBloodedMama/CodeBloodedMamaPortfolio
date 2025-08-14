@@ -9,7 +9,7 @@ npm run dev
 ### Im Elisabeth and im a software engineer specialized in web and app development. 
 ### This site is still under construction, if you need to contact me use the Email or my social medias, the api keys are not yet set in the deployment for the contact formular. 
 
-My intention for this site is to be able to learn me better, to make it possible to download my CV and to extend it further in the future for own purposes. 
+My intention for this site is to be able to get to learn me better, to make it possible to download my CV and to extend it further in the future for own purposes. 
 
 This is the list i am consittering: 
 - A page with my favorite guitar songs where i can share the guitar chords
