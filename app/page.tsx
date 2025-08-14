@@ -9,7 +9,7 @@ export default function Page({ searchParams }:{ searchParams:{ lang?: string } }
     title={data.title} />
       <Section title={lang === "en" ? "About" : "Profil"}>
         <p className="max-w-3xl text-white/80">
-          {'intro' in data ? data.intro : data.cv.intro }
+          {'intro' in data ? data.intro : "" }
         </p>
       </Section>
     </>);
