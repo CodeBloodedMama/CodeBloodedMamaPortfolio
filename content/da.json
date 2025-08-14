@@ -9,6 +9,7 @@
   "cv": {
     "name": "Elisabeth Lennert",
     "title": "Junior Software teknologi diplomingeniør",
+    "intro": "Jeg er en passioneret softwareudvikler med fokus på frontend-udvikling og full-stack løsninger. Jeg har erfaring med at bygge cross-platform PWA'er, API'er og CI/CD workflows. Jeg elsker at skabe intuitive brugeroplevelser og optimere I/O-processer.",
     "downloadLabel": "Download CV (PDF)",
     "highlightsLabel": "Højdepunkter",
     "skillsLabel": "Færdigheder",
