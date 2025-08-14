@@ -1,6 +1,10 @@
-import Section from "@/components/Section"; import { getProjects } from "@/lib/projects"; import ProjectCard from "@/components/ProjectCard";
+import Section from "@/components/Section"; 
+import { getProjects } from "@/lib/projects"; 
+import ProjectCard from "@/components/ProjectCard";
+import { Suspense } from "react";
 export default function Projects(){ const projects = getProjects();
      return (
+        <Suspense fallback={<div className="text-center text-white/70">Loading projects...</div>}>
         <Section title="Projects">
             <div className="mb-6 text-white/70 text-sm">
                 Klik for detaljer. (under construction).
@@ -16,5 +20,6 @@ export default function Projects(){ const projects = getProjects();
                         stack={p.stack} category={p.category} />))}
             </div>
         </Section>
+        </Suspense>
         ); 
     }
