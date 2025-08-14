@@ -83,36 +83,7 @@ export default function AboutPage() {
             <p className="text-base text-white/80">{T.finalText}</p>
           </Section>
         </div>
-      </div>
-    <div className="bg-hero-gradient min-h-screen">
-      <div className="max-w-6xl mx-auto px-4 py-10 text-white">
-        
-        {/* Centered header */}
-        <div className="flex flex-col items-center text-center">
-          <h1 className="text-3xl font-bold">{T.headline}</h1>
-          <p className="text-base text-white/80 max-w-2xl mt-2">{T.intro}</p>
-        </div>
-
-        {/* Hobbies grid */}
-        <Section title={T.hobbiesTitle}>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {hobbies.map((h, i) => (
-              <div key={i}
-                   className="bg-white/10 rounded-xl shadow p-3 flex flex-col items-center text-center hover:scale-105 transition-transform">
-                <Image src={h.img} alt={h.title} width={110} height={110} className="rounded-lg mb-2" />
-                <h3 className="text-lg font-semibold">{h.title}</h3>
-                <p className="text-sm text-white/80">{h.text}</p>
-              </div>
-            ))}
-          </div>
-        </Section>
-
-        {/* Final thought */}
-        <Section title={T.finalTitle}>
-          <p className="text-base text-white/80">{T.finalText}</p>
-        </Section>
-      </div>
-    </div>
+  </div>
     </Suspense>
   );
 }
