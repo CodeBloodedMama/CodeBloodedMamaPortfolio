@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-
+// not done, create api key from resend,com and set variables in vercel. 
+// VARIABLES TO SET: 
+// RESEND_API_KEY, RESEND_FROM, TO_EMAIL 
 export async function POST(req: Request) {
   try {
     const { name, email, subject, message, lang } = await req.json();

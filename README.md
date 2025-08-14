@@ -1,26 +1,19 @@
-# CodeBloodedMama Portfolio — Next.js 14 + Tailwind + Framer Motion
+# CodeBloodedMama Portfolio — created in Next.js 14, using Tailwind framework + Framer Motion for animated graphics.
 
-## Install
+
 ```bash
-npm install
 npm run dev
 ```
 
-## Update content
-- `content/da.json`, `content/en.json`
-- `content/projects.json` (images in `/public/projects/`)
-- Blog posts: `content/blog/*.md`
-- Hero image: `/public/hero-fullbody.jpg`
-- PDF: `/public/Elisabeth_Lennert_CV.pdf`
+## Hi and welcome to my online resumé and portfolio. 
+### Im Elisabeth and im a software engineer specialized in web and app development. 
+### This site is still under construction, if you need to contact me use the Email or my social medias, the api keys are not yet set in the deployment for the contact formular. 
 
-## Checklists
-**New Project**
-1. Add object to `content/projects.json`
-2. Add image to `/public/projects/<slug>.jpg`
-3. (Optional) Add markdown `/content/projects/<slug>.md`
-4. Test locally → push → deploy
+My intention for this site is to be able to learn me better, to make it possible to download my CV and to extend it further in the future for own purposes. 
 
-**New Blog Post**
-1. Create `content/blog/<slug>.md` with frontmatter
-2. (Optional) Add hero image in `/public/blog/`
-3. Test → push → deploy
+This is the list i am consittering: 
+- A page with my favorite guitar songs where i can share the guitar chords
+- a blog talking about all from coding to science to girlyPop stuff or how to page on what i have learned over the years.
+- a page with some content for how to start coding, maybe create some beginner courses to lure more people into actual coding
+- a fully updated projects page with references to both code and deployment of my projects over the time ( merge old Git profiles fork projects and so)
+

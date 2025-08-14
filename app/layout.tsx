@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
 
 export const metadata: Metadata = {
+ 
   title: `${SITE.name}`,
   description: SITE.description,
   metadataBase: new URL(SITE.url),

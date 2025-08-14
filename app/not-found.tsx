@@ -21,6 +21,7 @@ function NotFoundContent() {
   const t = translations[lang] || translations["en"];
 
   return (
+    
       <div style={{ textAlign: "center", padding: "50px" }}>
         <h1>{t.title}</h1>
         <p>{t.description}</p>
