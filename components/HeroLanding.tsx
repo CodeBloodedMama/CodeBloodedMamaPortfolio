@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { useLang } from "@/components/i18n/LanguageProvider";
 
-export default function HeroLanding({ name, title }: { name: string; title: string }) {
+export default function HeroLanding({ name, title, intro }: { name: string; title: string; intro:string}) {
   const { lang } = useLang();
 
   const T = {
