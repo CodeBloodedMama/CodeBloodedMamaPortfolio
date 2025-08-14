@@ -13,14 +13,14 @@ export default function HeroLanding({ name, title, intro }: { name: string; titl
       enter: "Gå til CV",
       download: "Download CV",
       intro:
-        "Jeg bygger moderne webapps med fokus på performance, udvikleroplevelse og en lækker brugeroplevelse. Erfaring med PWA, scanning (RFID/QR/Barcode), API-design og CI/CD. Jeg brænder for AI/ML og IT-sikkerhed.",
+        "Jeg bygger moderne webapps med fokus på performance, udvikleroplevelse og en lækker brugeroplevelse. To create is to live.",
     },
     en: {
       aka: "aka CodeBloodedMama",
       enter: "Enter site",
       download: "Download CV",
       intro:
-        "I build modern web apps with a focus on performance, developer experience and polished UX. Experience with PWAs, scanning (RFID/QR/Barcode), API design and CI/CD. Passionate about AI/ML and security.",
+        "I build modern web apps with a focus on performance, developer experience and polished UX. To create is to live.",
     },
   }[lang];
 
