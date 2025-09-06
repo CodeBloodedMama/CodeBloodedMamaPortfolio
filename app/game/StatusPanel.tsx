@@ -18,7 +18,7 @@ export default function StatusPanel({
   return (
     <div
       style={{
-        width: 640,
+        width:"100%",
         borderRadius: 12,
         padding: 12,
         background: C.cardBg,
@@ -26,6 +26,7 @@ export default function StatusPanel({
         border: "1px solid rgba(255,255,255,0.08)",
         color: C.pageText,
       }}
+      className="md:sticky md:top-4"
     >
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
         <div style={{ opacity: 0.85 }}>Status: <strong>{done.length}</strong> / {total} fanget</div>

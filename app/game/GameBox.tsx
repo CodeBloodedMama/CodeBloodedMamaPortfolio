@@ -150,47 +150,50 @@ export default function GameBox() {
   const collectedCount = Object.keys(collected).length;
 
   return (
-    <div style={{ position: "relative", display: "grid", placeItems: "center", gap: 10 }}>
-      <div
-        style={{
-          width: CANVAS_W,
-          borderRadius: 12,
-          padding: 8,
-          background: C.cardBg,
-          boxShadow: C.cardShadow,
-          border: "1px solid rgba(255,255,255,0.08)",
-        }}
-      >
-        <canvas
-          ref={canvasRef}
-          style={{ width: "100%", height: "auto", borderRadius: 8, background: C.sky, display: "block" }}
-        />
-      </div>
-
-      <StatusPanel
-        order={ORDER}
-        collected={collected}
-        total={totalCoins}
+  <div className="grid gap-4 md:grid-cols-[minmax(0,auto)_1fr] items-start">
+    {/* VENSTRE: spil-kasse */}
+    <div
+      style={{
+        width: CANVAS_W,
+        borderRadius: 12,
+        padding: 8,
+        background: C.cardBg,
+        boxShadow: C.cardShadow,
+        border: "1px solid rgba(255,255,255,0.08)",
+      }}
+      className="justify-self-center md:justify-self-start"
+    >
+      <canvas
+        ref={canvasRef}
+        style={{ width: "100%", height: "auto", borderRadius: 8, background: C.sky, display: "block" }}
       />
-
-      <button
-        onMouseDown={() => { keys.current.jump = true; setPressed(true); }}
-        onMouseUp={() => { keys.current.jump = false; setPressed(false); }}
-        onTouchStart={(e) => { e.preventDefault(); keys.current.jump = true; setPressed(true); }}
-        onTouchEnd={() => { keys.current.jump = false; setPressed(false); }}
-        aria-label="Hop"
-        style={{
-          padding: "10px 14px",
-          borderRadius: 10,
-          border: "1px solid rgba(255,255,255,0.14)",
-          background: pressed ? "rgba(255,255,255,0.10)" : "rgba(255,255,255,0.06)",
-          color: C.pageText, boxShadow: "0 2px 10px rgba(0,0,0,0.4)",
-        }}
-      >
-        Hop ⤴️
-      </button>
-
-      {showCard && <BusinessCard onClose={() => setShowCard(false)} copy={copy} />}
+      
+      
+      <div className="mt-3 flex">
+        <button
+          onMouseDown={() => { keys.current.jump = true; setPressed(true); }}
+          onMouseUp={() => { keys.current.jump = false; setPressed(false); }}
+          onTouchStart={(e) => { e.preventDefault(); keys.current.jump = true; setPressed(true); }}
+          onTouchEnd={() => { keys.current.jump = false; setPressed(false); }}
+          aria-label="Hop"
+          style={{
+            padding: "10px 14px",
+            borderRadius: 10,
+            border: "1px solid rgba(255,255,255,0.14)",
+            background: pressed ? "rgba(255,255,255,0.10)" : "rgba(255,255,255,0.06)",
+            color: C.pageText,
+            boxShadow: "0 2px 10px rgba(0,0,0,0.4)",
+          }}
+        >
+          Hop ⤴️
+        </button>
+      </div>
     </div>
-  );
+
+    <div className="w-full">
+      <StatusPanel order={ORDER} collected={collected} total={totalCoins} />
+    </div>
+    {showCard && <BusinessCard onClose={() => setShowCard(false)} copy={copy} />}
+  </div>
+);
 }
