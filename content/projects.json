@@ -14,8 +14,7 @@
       "individual profile",
       "API integration (food data and auth)"
     ],
-    "text":"SafeByte is my bachelor project i developed in React as a Progressive Web Application (PWA). The app is designed to help users with allergies by allowing them to scan product barcodes and receive real-time information about potential allergens. The app utilizes Firebase for authentication and Firestore as its database, ensuring secure and efficient data management. Key features include barcode scanning, camera access, and the ability to create individual profiles for personalized allergen tracking. SafeByte is cross-platform, making it accessible on various devices, and aims to enhance the safety and convenience of users with dietary restrictions.",
-    "image": "/projects/safe-byte.jpg",
+     "image": "/projects/safe-byte.jpg",
     "md": "/content/projects/safe-byte.md",
     "links": [
       {
@@ -25,60 +24,53 @@
     ]
   },
   {
-    "slug": "workout-tracker",
-    "title": "Workout Tracker App",
-    "teaser": "Android/Kotlin app til træningslog og notifikationer.",
-    "date": "2024-10-01",
+    "slug": "Cake-Recipe-App",
+    "title": "Cake Recipe App",
+    "teaser": "Android/Kotlin app til kage opskrifter.",
+    "date": "2023-10-01",
     "category": "Mobile",
-    "stack": [
-      "Kotlin",
-      "Android",
-      "SQLite"
-    ],
-    "image": "/projects/workout-tracker.jpg",
-    "md": "/content/projects/workout-tracker.md"
+    "stack": ["Kotlin", "Android", "SQLite"],
+    "image": "/projects/cakerecipeapp.jpg",
+    "md": "/content/projects/cakes.md"
   },
-  {
-    "slug": "inventory-dashboard",
-    "title": "Inventory Management Dashboard",
-    "teaser": "Angular dashboard med filtrering og CRUD.",
-    "date": "2024-06-01",
-    "category": "Dashboard",
-    "stack": [
-      "Angular",
-      "TypeScript",
-      "REST"
-    ],
-    "image": "/projects/inventory-dashboard.jpg",
-    "md": "/content/projects/inventory-dashboard.md"
-  },
+
   {
     "slug": "portfolio-v1",
     "title": "Portfolio Website v1",
     "teaser": "Tidlig Next.js/Tailwind portfolio.",
     "date": "2024-03-15",
     "category": "Web App",
-    "stack": [
-      "Next.js",
-      "Tailwind",
-      "Vercel"
-    ],
+    "stack": ["Next.js", "Tailwind", "Vercel"],
     "image": "/projects/portfolio-v1.jpg"
   },
   {
     "slug": "pet-feeder",
     "title": "Automatisk Foderdispenser",
     "teaser": "IoT-system med PSoC og Raspberry Pi.",
-    "date": "2023-11-20",
+    "date": "2023-05-20",
     "category": "IoT",
-    "stack": [
-      "C",
-      "C++",
-      "PSoC",
-      "Raspberry Pi",
-      "React"
-    ],
-    "image": "/projects/pet-feeder.jpg",
+    "stack": ["C", "C++", "PSoC", "Raspberry Pi", "React PWA til frontend", "docker til backend og database"],
     "md": "/content/projects/pet-feeder.md"
-  }
+  },
+  {
+  "slug": "machine-learning-projects",
+  "title": "Machine Learning Projekter",
+  "teaser": "Samlet portefølje af ML-projekter: regression, CNN, overfitting/generalisation og NLP.",
+  "date": "2024-05-15",
+  "category": "Machine Learning",
+  "stack": ["Python", "NumPy", "scikit-learn", "TensorFlow/Keras", "spaCy"],
+  "image": "/projects/machine-learning.jpg",
+  "md": "/content/projects/machine-learning.md"
+}, 
+{
+  "slug": "marketplace-architecture",
+  "title": "Marketplace – Web Architecture & Orchestration",
+  "teaser": "Microservices, event bus, Kubernetes orchestration, observability og zero-downtime deploys.",
+  "date": "2024-05-01",
+  "category": "Web Architecture",
+  "stack": ["Next.js", "Node/Express", "PostgreSQL","Kubernetes", "Helm", "graphQL", "RabbitMQ","Grafana"],
+  "md": "/content/projects/marketsplace-architecture.md"
+}
+
+
 ]

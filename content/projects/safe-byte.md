@@ -1,7 +1,7 @@
-# SafeByte
-Din personlige Allergi-fødrevarer  Scanners
 
 **Type:** Bachelorprojekt (Softwareteknologi, B.Eng)  
+
+
 **Teknologier:** React, Progressive Web App (PWA), Barcode/QR Scanner, Firebase (Auth & Firestore), REST API
 
 **Kort beskrivelse:**  
