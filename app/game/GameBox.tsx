@@ -4,7 +4,7 @@ import { C, PROFILE, CANVAS_W, CANVAS_H, LEVEL_W, GROUND_Y, GRAVITY, MOVE_SPEED,
 import { Rect, Coin, Player } from "./types";
 import { drawCoin, drawCloudHUD } from "./draw";
 import { roundRect } from "./draw";
-import StatusPanel from "./statuspanel";
+import StatusPanel from "./StatusPanel";
 import BusinessCard from "./BusinessCard";
 
 export default function GameBox() {
