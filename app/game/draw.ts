@@ -40,7 +40,6 @@ export function drawCloudHUD(
   ctx.fillStyle = C.cloudText;
   ctx.font = "12px ui-sans-serif, system-ui, -apple-system";
   ctx.textAlign = "left";
-  ctx.fillText("Indsamlet:", x + 12, y + 19);
 
   // chips
   let bx = x + 88, by = y + 9;
@@ -54,17 +53,17 @@ export function drawCloudHUD(
   }
 
   // progress
-  const done = labels.length;
-  const pct = Math.round((done / total) * 100);
-  ctx.textAlign = "right";
-  ctx.fillStyle = C.cloudText;
-  ctx.fillText(`${done}/${total} • ${pct}%`, x + w - 12, y + 19);
+  //const done = labels.length;
+  //const pct = Math.round((done / total) * 100);
+  //ctx.textAlign = "right";
+  //ctx.fillStyle = C.cloudText;
+  //ctx.fillText(`${done}/${total} • ${pct}%`, x + w - 12, y + 19);
 
-  const pbx = x + 12, pby = y + 32, pbw = w - 24, pbh = 10;
-  ctx.fillStyle = "rgba(255,255,255,0.08)";
-  roundRect(ctx, pbx, pby, pbw, pbh, 6, true, false);
-  ctx.fillStyle = "rgba(255,255,255,0.16)";
-  roundRect(ctx, pbx, pby, Math.max(2, (pbw * done) / total), pbh, 6, true, false);
+  //const pbx = x + 12, pby = y + 32, pbw = w - 24, pbh = 10;
+  //ctx.fillStyle = "rgba(255,255,255,0.08)";
+  //roundRect(ctx, pbx, pby, pbw, pbh, 6, true, false);
+  //ctx.fillStyle = "rgba(255,255,255,0.16)";
+  //roundRect(ctx, pbx, pby, Math.max(2, (pbw * done) / total), pbh, 6, true, false);
 
   // toast
   if (toast) {

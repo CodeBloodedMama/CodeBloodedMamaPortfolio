@@ -151,7 +151,7 @@ export default function GameBox() {
 
   return (
   <div className="grid gap-4 md:grid-cols-[minmax(0,auto)_1fr] items-start">
-    {/* VENSTRE: spil-kasse */}
+ 
     <div
       style={{
         width: CANVAS_W,
