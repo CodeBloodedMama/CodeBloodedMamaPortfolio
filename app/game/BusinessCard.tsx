@@ -130,7 +130,6 @@ function Row({ icon, label, value }: { icon: string; label: string; value: strin
   );
 }
 
-/* styles */
 const stage: React.CSSProperties = { perspective: 1200 };
 const card3D: React.CSSProperties = {
   position: "relative",
