@@ -12,6 +12,7 @@ const LINKS: NavItem[] = [
   { href: "/cv", da: "CV", en: "CV" },
   { href: "/projects", da: "Projekter", en: "Projects" },
   { href: "/blog", da: "Blog", en: "Blog" },
+  { href: "/game", da: "CV spil", en: "CV-Game" },
   { href: "/contact", da: "Kontakt", en: "Contact" },
   { href: "/about", da: "Om mig", en: "About" },
 ];
