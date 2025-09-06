@@ -2,15 +2,19 @@
   {
     "slug": "safe-byte",
     "title": "SafeByte",
-    "teaser": "PWA til allergiscanning og real-time opslag.",
+    "teaser": "Progressive Web Application til allergiscanning og real-time opslag.",
     "date": "2025-01-01",
     "category": "PWA",
     "stack": [
       "React",
-      "Firebase",
-      "Docker",
-      "Barcode"
+      "Firebase auth & Firestore DB",
+      "Barcode scanning",
+      "camera access",
+      "cross platform",
+      "individual profile",
+      "API integration (food data and auth)"
     ],
+    "text":"SafeByte is my bachelor project i developed in React as a Progressive Web Application (PWA). The app is designed to help users with allergies by allowing them to scan product barcodes and receive real-time information about potential allergens. The app utilizes Firebase for authentication and Firestore as its database, ensuring secure and efficient data management. Key features include barcode scanning, camera access, and the ability to create individual profiles for personalized allergen tracking. SafeByte is cross-platform, making it accessible on various devices, and aims to enhance the safety and convenience of users with dietary restrictions.",
     "image": "/projects/safe-byte.jpg",
     "md": "/content/projects/safe-byte.md",
     "links": [

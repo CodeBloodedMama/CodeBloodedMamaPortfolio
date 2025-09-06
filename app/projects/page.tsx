@@ -17,7 +17,10 @@ export default function Projects(){ const projects = getProjects();
                         title={p.title} 
                         teaser={p.teaser} 
                         image={p.image} 
-                        stack={p.stack} category={p.category} />))}
+                        stack={p.stack} category={p.category} 
+                        text={p.text}
+                         />
+                         ))}
             </div>
         </Section>
         </Suspense>

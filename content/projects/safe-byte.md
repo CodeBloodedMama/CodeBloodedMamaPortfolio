@@ -1,7 +1,5 @@
 # SafeByte
-
-Beskriv projektet her.
-## SafeByte – Smart Home Allergy Scanner
+Din personlige Allergi-fødrevarer  Scanners
 
 **Type:** Bachelorprojekt (Softwareteknologi, B.Eng)  
 **Teknologier:** React, Progressive Web App (PWA), Barcode/QR Scanner, Firebase (Auth & Firestore), REST API
