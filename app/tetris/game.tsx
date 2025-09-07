@@ -52,7 +52,7 @@ export default function TetrisGame() {
     []
   );
 
-  // Farver (uændret)
+  // Farver 
   const BLOCK_STYLE: Record<number, string> = {
     1: "from-cyan-200 to-cyan-500",
     2: "from-blue-200 to-blue-500",
@@ -63,7 +63,7 @@ export default function TetrisGame() {
     7: "from-rose-200 to-rose-500",
   };
 
-  // --- State (uændret)
+  // --- State 
   type Piece = { id: number; m: number[][]; r: number; c: number };
   const [board, setBoard] = useState<number[][]>(() =>
     Array.from({ length: ROWS }, () => Array(COLS).fill(0))
@@ -275,11 +275,11 @@ export default function TetrisGame() {
     const calc = () => {
       const vw = window.innerWidth;
       const vh = window.innerHeight;
-      const margin = vw > 900 ? 220 : 120;
+      const margin = vw > 900 ? 300 : 120;
       const availableH = vh - margin;
       const availableW = vw - 32;
       const cellSize = Math.floor(Math.min(availableH / ROWS, availableW / COLS));
-      const clamped = Math.max(12, Math.min(cellSize, vw > 900 ? 32 : 20));
+      const clamped = Math.max(12, Math.min(cellSize, vw > 900 ? 40 : 20));
       setCell(clamped);
       setBoardPx({ w: clamped * COLS, h: clamped * ROWS });
 
@@ -352,7 +352,7 @@ export default function TetrisGame() {
           {/* Board */}
           <div
             className="relative border-[3px] border-white/40 bg-black/90 box-border overflow-hidden mt-20"
-            style={{ width: boardPx.w, height: boardPx.h + 30 }}
+            style={{ width: boardPx.w + 20, height: boardPx.h + 40 }}
           >
             <div
               className="relative grid gap-[1px] rounded-xl"
