@@ -5,14 +5,12 @@ export default function ProjectCard({
   teaser,
   stack,
   category,
-  text,
 }: {
   slug: string;
   title: string;
   teaser: string;
   stack: string[];
   category: string;
-  text: string;
 }) {
   return (
     <div className="card glow overflow-hidden hover:scale-[1.01] transition">

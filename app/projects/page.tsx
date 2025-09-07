@@ -24,7 +24,6 @@ export default function Projects() {
               teaser={p.teaser}
               stack={p.stack}
               category={p.category}
-              text={p.text}
             />
           ))}
         </div>
