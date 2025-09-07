@@ -1,4 +1,84 @@
 {
+  "projects": {
+    "safe-byte": {
+      "title": "SafeByte",
+      "teaser": "Progressive Web Application til allergiscanning og real-time opslag.",
+      "type": "Bachelorprojekt (Softwareteknologi, B.Eng)",
+      "shortDescription": "SafeByte er designet til at hjælpe personer med fødevareallergi med hurtigt at identificere allergener i dagligvarer. Brugeren kan scanne stregkoder direkte fra produktet via en mobil eller tablet, hvorefter systemet matcher varen mod en personlig allergidatabase. Appen giver øjeblikkelig feedback og advarsler, hvis varen indeholder ingredienser, brugeren bør undgå.",
+      "features": [
+        "📱 Barcode scanning via kamera på mobil eller tablet",
+        "🛡 Personlig allergiprofiler gemt i Firebase",
+        "☁ Cloud-baseret database med produkt- og ingrediensinformation",
+        "🔄 Real-time synkronisering på tværs af enheder",
+        "💡 PWA-funktionalitet – kan installeres som app uden App Store/Google Play",
+        "🔐 Sikker login med Firebase Authentication"
+      ],
+      "result": "SafeByte demonstrerer, hvordan moderne webteknologier kan skabe en hurtig, brugervenlig og tilgængelig løsning til et reelt sundhedsproblem. Projektet kombinerer UX-design, API-integration, cloud-teknologi og sikkerhedsaspekter i ét sammenhængende produkt."
+    },
+    "cake-recipe-app": {
+      "title": "Cake Recipe App",
+      "teaser": "Android/Kotlin app til kage opskrifter.",
+      "type": "Android App Projekt",
+      "shortDescription": "En opskriftsapp med fokus på lækkert UI og hurtig søgning.",
+      "features": [
+        "Trin-for-trin visning med timers og “cook mode”",
+        "Søg & filtrer på sværhedsgrad, tid og ingredienser",
+        "Favoritter & delbare links",
+        "CMS-lignende redigering af opskrifter"
+      ],
+      "result": "Appen gør det nemt og hurtigt at finde, tilpasse og følge opskrifter – med et moderne og brugervenligt design."
+    },
+    "pet-feeder": {
+      "title": "Automatisk Foderdispenser",
+      "teaser": "IoT-system med PSoC og Raspberry Pi.",
+      "type": "Semesterprojekt (IoT & Embedded)",
+      "shortDescription": "Moderne, skalerbar IoT-løsning til automatisk fodring af kæledyr. Systemet kombinerer hardware (PSoC, Raspberry Pi) og software (React PWA, Docker) med sikker kommunikation.",
+      "features": [
+        "Automatisk fodring: Tidsplanlægning og manuel aktivering via app",
+        "Sensorovervågning: Vægt- og niveausensorer sikrer korrekt fodermængde og advarer ved lavt niveau",
+        "Fjernstyring: Brugeren kan styre dispenseren fra hvor som helst via PWA",
+        "Dataopsamling: Logning af fodringshistorik og sensorstatus",
+        "Sikkerhed: Adgangskontrol og sikker kommunikation mellem enheder"
+      ],
+      "result": "Projektet resulterede i en robust prototype, der demonstrerer automatiseret fodring, realtidsdata og fjernstyring. Løsningen kan udvides med flere sensorer eller smart home-integration."
+    },
+    "machine-learning-projects": {
+      "title": "Machine Learning Projekter",
+      "teaser": "Samlet portefølje af ML-projekter: regression, CNN, overfitting/generalisation og NLP.",
+      "type": "Semesterprojekt (Machine Learning)",
+      "shortDescription": "Fokus var at gå fra klassiske modeller til dybere arkitekturer og afslutte med NLP og embeddings.",
+      "features": [
+        "Lineær regression, logistisk regression, beslutningstræer og SVM",
+        "Datasætforståelse, præprocessering og målemetrikker (accuracy, precision/recall, confusion matrix)",
+        "Bias/variance trade-off",
+        "CNN på MNIST til håndskriftgenkendelse",
+        "Overfitting & regularisering: early stopping, dropout, L2",
+        "Modelkompleksitet og generalisering",
+        "Duplicate Question Detection (Quora dataset) med spaCy og SVM",
+        "Visualisering af embeddings med t-SNE",
+        "Egen pipeline for tekstrepræsentation"
+      ],
+      "result": "Projektet gav erfaring med både klassiske og dybe ML-modeller, computer vision og NLP. Resultatet var robuste baselines og bedre forståelse af generalisering og semantiske repræsentationer."
+    },
+    "marketplace-architecture": {
+      "title": "Marketplace – Web Architecture & Orchestration",
+      "teaser": "Microservices, event bus, Kubernetes orchestration, observability og zero-downtime deploys.",
+      "type": "Semesterprojekt (Web Architecture & Orchestration)",
+      "shortDescription": "En skalerbar marketplace app, hvor sælgere kan oprette produkter og købere kan søge, lægge i kurv og gennemføre betaling. Orkestreret med Kubernetes, RabbitMQ til kommunikation mellem brugere og GraphQL til databasehåndtering. Arkitekturen prioriterer resiliens, skalerbarhed og hurtige releases.",
+      "features": [
+        "Web (Next.js) – SSR/ISR, produkt-/kategori-sider, checkout UI",
+        "BFF / API-Gateway – edge-API til klienter, aggregerer kald til services",
+        "GoogleAuth til login",
+        "Catalog Service – CRUD for produkter, kategorier, lager",
+        "Cart Service – session/brugerkurv (Redis for hurtighed)",
+        "Order Service – ordreoprettelse, status, idempotent opførsel",
+        "Notification Service – e-mail/push (async via event bus/queue)",
+        "Event Bus – RabbitMQ for asynkrone beskeder",
+        "Infra – Kubernetes, Grafana + OpenTelemetry"
+      ],
+      "result": "Projektet demonstrerer en moderne, robust og skalerbar webarkitektur med microservices, event-bus, orchestration og observability. Løsningen muliggør hurtige releases og høj resiliens."
+    }
+  },
   "name": "Elisabeth Lennert",
   "title": "Junior Software teknologi diplomingeniør",
   "intro": "Jeg er en passioneret softwareudvikler med fokus på frontend-udvikling og full-stack løsninger. Jeg har erfaring med at bygge cross-platform PWA'er, API'er og CI/CD workflows. Jeg elsker at skabe intuitive brugeroplevelser og optimere I/O-processer.",

@@ -1,4 +1,84 @@
 {
+  "projects": {
+    "safe-byte": {
+      "title": "SafeByte",
+      "teaser": "Progressive Web Application for allergy scanning and real-time lookup.",
+      "type": "Bachelor Project (Software Technology, B.Eng)",
+      "shortDescription": "SafeByte is designed to help people with food allergies quickly identify allergens in groceries. The user can scan barcodes directly from the product via mobile or tablet, and the system matches the item against a personal allergy database. The app provides instant feedback and warnings if the item contains ingredients the user should avoid.",
+      "features": [
+        "📱 Barcode scanning via camera on mobile or tablet",
+        "🛡 Personal allergy profiles stored in Firebase",
+        "☁ Cloud-based database with product and ingredient information",
+        "🔄 Real-time synchronization across devices",
+        "💡 PWA functionality – can be installed as an app without App Store/Google Play",
+        "🔐 Secure login with Firebase Authentication"
+      ],
+      "result": "SafeByte demonstrates how modern web technologies can create a fast, user-friendly, and accessible solution to a real health problem. The project combines UX design, API integration, cloud technology, and security aspects in one cohesive product."
+    },
+    "cake-recipe-app": {
+      "title": "Cake Recipe App",
+      "teaser": "Android/Kotlin app for cake recipes.",
+      "type": "Android App Project",
+      "shortDescription": "A recipe app focused on beautiful UI and fast search.",
+      "features": [
+        "Step-by-step view with timers and 'cook mode'",
+        "Search & filter by difficulty, time, and ingredients",
+        "Favorites & shareable links",
+        "CMS-like editing of recipes"
+      ],
+      "result": "The app makes it easy and fast to find, customize, and follow recipes – with a modern and user-friendly design."
+    },
+    "pet-feeder": {
+      "title": "Automatic Pet Feeder",
+      "teaser": "IoT system with PSoC and Raspberry Pi.",
+      "type": "Semester Project (IoT & Embedded)",
+      "shortDescription": "Modern, scalable IoT solution for automatic pet feeding. The system combines hardware (PSoC, Raspberry Pi) and software (React PWA, Docker) with secure communication.",
+      "features": [
+        "Automatic feeding: Scheduling and manual activation via app",
+        "Sensor monitoring: Weight and level sensors ensure correct feed amount and warn at low level",
+        "Remote control: The user can control the feeder from anywhere via PWA",
+        "Data collection: Logging of feeding history and sensor status",
+        "Security: Access control and secure communication between devices"
+      ],
+      "result": "The project resulted in a robust prototype demonstrating automated feeding, real-time data, and remote control. The solution can be expanded with more sensors or smart home integration."
+    },
+    "machine-learning-projects": {
+      "title": "Machine Learning Projects",
+      "teaser": "Portfolio of ML projects: regression, CNN, overfitting/generalization, and NLP.",
+      "type": "Semester Project (Machine Learning)",
+      "shortDescription": "The focus was to move from classic models to deeper architectures and finish with NLP and embeddings.",
+      "features": [
+        "Linear regression, logistic regression, decision trees, and SVM",
+        "Dataset understanding, preprocessing, and metrics (accuracy, precision/recall, confusion matrix)",
+        "Bias/variance trade-off",
+        "CNN on MNIST for handwriting recognition",
+        "Overfitting & regularization: early stopping, dropout, L2",
+        "Model complexity and generalization",
+        "Duplicate Question Detection (Quora dataset) with spaCy and SVM",
+        "Visualization of embeddings with t-SNE",
+        "Custom pipeline for text representation"
+      ],
+      "result": "The project provided experience with both classic and deep ML models, computer vision, and NLP. The result was robust baselines and a better understanding of generalization and semantic representations."
+    },
+    "marketplace-architecture": {
+      "title": "Marketplace – Web Architecture & Orchestration",
+      "teaser": "Microservices, event bus, Kubernetes orchestration, observability, and zero-downtime deploys.",
+      "type": "Semester Project (Web Architecture & Orchestration)",
+      "shortDescription": "A scalable marketplace app where sellers can create products and buyers can search, add to cart, and complete payment. Orchestrated with Kubernetes, RabbitMQ for user communication, and GraphQL for database management. The architecture prioritizes resilience, scalability, and rapid releases.",
+      "features": [
+        "Web (Next.js) – SSR/ISR, product/category pages, checkout UI",
+        "BFF / API-Gateway – edge API for clients, aggregates calls to services",
+        "GoogleAuth for login",
+        "Catalog Service – CRUD for products, categories, inventory",
+        "Cart Service – session/user cart (Redis for speed)",
+        "Order Service – order creation, status, idempotent behavior",
+        "Notification Service – email/push (async via event bus/queue)",
+        "Event Bus – RabbitMQ for asynchronous messages",
+        "Infra – Kubernetes, Grafana + OpenTelemetry"
+      ],
+      "result": "The project demonstrates a modern, robust, and scalable web architecture with microservices, event bus, orchestration, and observability. The solution enables rapid releases and high resilience."
+    }
+  },
   "lang": "en",
   "brand": "CodeBloodedMama",
   "name": "Elisabeth Lennert",
