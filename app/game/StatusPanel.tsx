@@ -29,8 +29,8 @@ export default function StatusPanel({
       className="md:sticky md:top-4"
     >
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-        <div style={{ opacity: 0.85 }}>Status: <strong>{done.length}</strong> / {total} fanget</div>
-        <div style={{ opacity: 0.85 }}>Tilbage: <strong>{remaining}</strong></div>
+        <div style={{ opacity: 0.85 }}>Status: <strong>{done.length}</strong> / {total} total</div>
+        <div style={{ opacity: 0.85 }}>Still needs: <strong>{remaining}</strong></div>
       </div>
 
       <div
@@ -38,7 +38,7 @@ export default function StatusPanel({
           height: 10, borderRadius: 999, background: "rgba(255,255,255,0.08)",
           overflow: "hidden", marginBottom: 10, border: "1px solid rgba(255,255,255,0.12)",
         }}
-        aria-label={`Fremdrift ${pct}%`}
+        aria-label={`Progress ${pct}%`}
       >
         <div
           style={{
@@ -70,7 +70,7 @@ export default function StatusPanel({
               <span style={{ opacity: got ? 0.9 : 0.6, wordBreak: "break-word" }}>
                 {got ? collected[o.label] : "—"}
               </span>
-              <span aria-label={got ? "Fanget" : "Mangler"}>{got ? "✅" : "🟡"}</span>
+              <span aria-label={got ? "Gathered" : "Still needs"}>{got ? "✅" : "🟡"}</span>
             </li>
           );
         })}

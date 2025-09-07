@@ -10,11 +10,14 @@ export default function GameLanding() {
     <main style={{ maxWidth: 980, margin: "40px auto", padding: 16, color: C.pageText }}>
       <header style={{ textAlign: "center" }}>
         <h1 style={{ fontSize: "clamp(28px,4vw,44px)", marginBottom: 6 }}>
-          🎮 Interaktivt CV – fang mine informationer
+          🎮 Interaktivt CV 
         </h1>
         <p style={{ color: C.pageSubtle, marginBottom: 16 }}>
-          Brug <kbd>←</kbd>/<kbd>→</kbd> og <kbd>Space</kbd> (eller Hop-knappen på mobil).
+          Use <kbd>←</kbd>/<kbd>→</kbd> and <kbd>Space</kbd> (use buttons on mobile).
         </p>
+        <p style={{ color: C.pageSubtle, marginBottom: 16 }}>
+          gather the coins to see my businesscard
+               </p>
         {!started && (
           <button
             onClick={() => setStarted(true)}
@@ -30,7 +33,7 @@ export default function GameLanding() {
               boxShadow: "0 10px 28px rgba(0,0,0,0.45)",
             }}
           >
-            Start spillet 🚀
+            Start the game 🚀
           </button>
         )}
       </header>

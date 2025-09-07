@@ -15,6 +15,7 @@ export default function Page({ searchParams }:{ searchParams:{ lang?: string } }
         title={data.title}
         intro={data.intro}
       />
+      
       </Suspense>
 
 
