@@ -18,9 +18,9 @@ export default function StatusPanel({
   return (
     <div
       style={{
-        width:"100%",
+        width: "100%",
         borderRadius: 12,
-        padding: 12,
+        padding: 16,
         background: C.cardBg,
         boxShadow: C.cardShadow,
         border: "1px solid rgba(255,255,255,0.08)",
@@ -28,49 +28,45 @@ export default function StatusPanel({
       }}
       className="md:sticky md:top-4"
     >
-      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-        <div style={{ opacity: 0.85 }}>Status: <strong>{done.length}</strong> / {total} total</div>
-        <div style={{ opacity: 0.85 }}>Still needs: <strong>{remaining}</strong></div>
+      {/* Header */}
+      <div className="flex justify-between text-sm mb-2 opacity-85">
+        <div>
+          Status: <strong>{done.length}</strong> / {total}
+        </div>
+        <div>
+          Needs: <strong>{remaining}</strong>
+        </div>
       </div>
 
+      {/* Progressbar */}
       <div
-        style={{
-          height: 10, borderRadius: 999, background: "rgba(255,255,255,0.08)",
-          overflow: "hidden", marginBottom: 10, border: "1px solid rgba(255,255,255,0.12)",
-        }}
+        className="h-2 w-full rounded-full border border-white/10 bg-white/5 overflow-hidden mb-3"
         aria-label={`Progress ${pct}%`}
       >
         <div
-          style={{
-            width: `${pct}%`, height: "100%",
-            background: "linear-gradient(90deg, #5e6cff, #6d35ff, #ff3cac)",
-          }}
+          className="h-full bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500"
+          style={{ width: `${pct}%` }}
         />
       </div>
 
-      <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: 6 }}>
+      {/* List */}
+      <ul className="space-y-2">
         {order.map((o) => {
           const got = !!collected[o.label];
           return (
             <li
               key={o.label}
-              style={{
-                display: "grid",
-                gridTemplateColumns: "22px 110px 1fr auto",
-                gap: 8,
-                alignItems: "center",
-                padding: "6px 8px",
-                borderRadius: 8,
-                background: got ? "rgba(46,204,113,0.10)" : "rgba(255,255,255,0.04)",
-                border: got ? "1px solid rgba(46,204,113,0.35)" : "1px solid rgba(255,255,255,0.08)",
-              }}
+              className={`grid grid-cols-[28px,120px,1fr,28px] gap-2 items-center rounded-lg px-2 py-1.5 border text-sm
+              ${got
+                ? "bg-emerald-500/10 border-emerald-400/40"
+                : "bg-white/5 border-white/10"}`} 
             >
               <span>{o.icon}</span>
-              <strong style={{ opacity: 0.9 }}>{o.label}</strong>
-              <span style={{ opacity: got ? 0.9 : 0.6, wordBreak: "break-word" }}>
+              <strong className="truncate">{o.label}</strong>
+              <span className={`truncate ${got ? "opacity-90" : "opacity-60"}`}>
                 {got ? collected[o.label] : "—"}
               </span>
-              <span aria-label={got ? "Gathered" : "Still needs"}>{got ? "✅" : "🟡"}</span>
+              <span>{got ? "✅" : "🟡"}</span>
             </li>
           );
         })}
