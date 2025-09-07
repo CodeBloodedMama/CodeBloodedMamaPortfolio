@@ -185,13 +185,13 @@ export default function GameBox() {
         <div className="md:col-span-2">
        
           <img
-            src="./E_Lennert_BusinessCard.png"
+            src="./E_Lennert_BusinessCard.jpg"
             ></img>
             
       {/* Download-knap til visitkort */}
       <div className="flex justify-center mt-8">
         <a
-          href="./E_lennert_BusinessCard.png"
+          href="./E_lennert_BusinessCard.jpg"
           download
           className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-base font-medium text-slate-800 hover:bg-slate-50 shadow"
         >
