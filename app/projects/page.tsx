@@ -3,6 +3,9 @@ import { getProjects } from "@/lib/projects";
 import ProjectCard from "@/components/ProjectCard";
 import { Suspense } from "react";
 
+import { useLang } from "@/components/i18n/LanguageProvider";
+
+
 export default function Projects() {
   const projects = getProjects();
   return (

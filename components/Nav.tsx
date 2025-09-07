@@ -11,7 +11,6 @@ const LINKS: NavItem[] = [
   { href: "/", da: "Intro", en: "Intro" },
   { href: "/cv", da: "CV", en: "CV" },
   { href: "/projects", da: "Projekter", en: "Projects" },
-  { href: "/blog", da: "Blog", en: "Blog" },
   { href: "/game", da: "CV spil", en: "CV-Game" },
   { href: "/contact", da: "Kontakt", en: "Contact" },
   { href: "/about", da: "Om mig", en: "About" },
@@ -24,7 +23,7 @@ export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
-  // WOW: Scroll progress (0..1)
+  // Scroll progress (0..1)
   const [progress, setProgress] = useState(0);
   useEffect(() => {
     const onScroll = () => {
@@ -39,7 +38,7 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Luk mobile menu ved route change
+ 
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
@@ -58,7 +57,7 @@ export default function Nav() {
         )}
       >
         <span>{lang === "en" ? item.en : item.da}</span>
-        {/* WOW: underline glide-in */}
+        {/*underline glide-in */}
         <span
           className={clsx(
             "pointer-events-none absolute left-3 right-3 -bottom-0.5 h-px rounded",
