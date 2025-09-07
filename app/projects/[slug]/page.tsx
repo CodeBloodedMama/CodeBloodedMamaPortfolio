@@ -21,7 +21,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     <div>
       <section className="bg-hero-gradient pt-16">
         <div className="max-w-5xl mx-auto px-4 py-10">
-          {project.image && (
+          {project.image && project.image.trim() !== "" && (
             <img
               src={project.image}
               alt={project.title}

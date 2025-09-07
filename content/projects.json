@@ -14,8 +14,7 @@
       "individual profile",
       "API integration (food data and auth)"
     ],
-     "image": "/projects/safe-byte.jpg",
-    "md": "/content/projects/safe-byte.md",
+    "md": "../public/projectsmarkdown/safe-byte.md",
     "links": [
       {
         "label": "Vercel Deployment: prototype",
@@ -30,8 +29,7 @@
     "date": "2023-10-01",
     "category": "Mobile",
     "stack": ["Kotlin", "Android", "SQLite"],
-    "image": "/projects/cakerecipeapp.jpg",
-    "md": "/content/projects/cakes.md"
+    "md": "../public/projectsmarkdown/cakes.md"
   },
 
   {
@@ -40,8 +38,7 @@
     "teaser": "Tidlig Next.js/Tailwind portfolio.",
     "date": "2024-03-15",
     "category": "Web App",
-    "stack": ["Next.js", "Tailwind", "Vercel"],
-    "image": "/projects/portfolio-v1.jpg"
+    "stack": ["Next.js", "Tailwind", "Vercel"]
   },
   {
     "slug": "pet-feeder",
@@ -50,7 +47,7 @@
     "date": "2023-05-20",
     "category": "IoT",
     "stack": ["C", "C++", "PSoC", "Raspberry Pi", "React PWA til frontend", "docker til backend og database"],
-    "md": "/content/projects/pet-feeder.md"
+    "md": "../public/projectsmarkdown/pet-feeder.md"
   },
   {
   "slug": "machine-learning-projects",
@@ -59,8 +56,7 @@
   "date": "2024-05-15",
   "category": "Machine Learning",
   "stack": ["Python", "NumPy", "scikit-learn", "TensorFlow/Keras", "spaCy"],
-  "image": "/projects/machine-learning.jpg",
-  "md": "/content/projects/machine-learning.md"
+  "md": "../public/projectsmarkdown/machine-learning.md"
 }, 
 {
   "slug": "marketplace-architecture",
@@ -69,8 +65,7 @@
   "date": "2024-05-01",
   "category": "Web Architecture",
   "stack": ["Next.js", "Node/Express", "PostgreSQL","Kubernetes", "Helm", "graphQL", "RabbitMQ","Grafana"],
-  "md": "/content/projects/marketsplace-architecture.md"
+  "md": "../public/projectsmarkdownmarketsplace-architecture.md"
 }
-
 
 ]
