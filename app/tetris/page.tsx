@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import TetrisGame from "./game";
 
 export default function TetrisPage() {
