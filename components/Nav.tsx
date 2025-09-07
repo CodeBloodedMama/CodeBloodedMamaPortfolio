@@ -14,6 +14,7 @@ const LINKS: NavItem[] = [
   { href: "/game", da: "CV spil", en: "CV-Game" },
   { href: "/contact", da: "Kontakt", en: "Contact" },
   { href: "/about", da: "Om mig", en: "About" },
+  {href: "/tetris", da: "Tetris", en: "Tetris"}
 ];
 
 export default function Nav() {

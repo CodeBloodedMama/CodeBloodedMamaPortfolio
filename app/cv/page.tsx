@@ -7,7 +7,6 @@ import { useLang } from "@/components/i18n/LanguageProvider";
 export default function CVPage() {
   const { lang } = useLang();
 
-  // --- Translations & content pulled from your PDF CV (condensed) ---
   const T = {
     da: {
       title: "Junior softwareteknologi (B.Eng) • Full‑stack / Frontend",
@@ -346,7 +345,6 @@ export default function CVPage() {
   );
 }
 
-// --- Tiny UI primitives (no deps) ---
 function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
     <div className={`rounded-xl border border-white/10 bg-white/5 p-4 shadow ${className}`}>{children}</div>
