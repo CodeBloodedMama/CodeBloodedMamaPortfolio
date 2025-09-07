@@ -1,5 +1,6 @@
 'use client';
-import TetrisGame from "./game";
+
+import TetrisGame from "../game";
 
 export default function TetrisPage() {
   return (
