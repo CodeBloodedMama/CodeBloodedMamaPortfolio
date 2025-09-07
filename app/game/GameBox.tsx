@@ -185,7 +185,7 @@ export default function GameBox() {
         <div className="md:col-span-2">
        
           <img
-            src="./E_Lennert_BusinessCard.jpg"
+            src="./E_lennert_BusinessCard.jpg"
             ></img>
             
       {/* Download-knap til visitkort */}
