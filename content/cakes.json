@@ -1,0 +1,23 @@
+{
+  "type": "Android App Projekt",
+  "technologies": [
+    "Android Studio",
+    "Server Actions",
+    "Dockerization",
+    "Image optimering"
+  ],
+  "shortDescription": "En opskriftsapp med fokus på lækkert UI og hurtig søgning.",
+  "features": [
+    "Trin-for-trin visning med timers og “cook mode”",
+    "Søg & filtrer på sværhedsgrad, tid og ingredienser",
+    "Favoritter & delbare links",
+    "CMS-lignende redigering af opskrifter"
+  ],
+  "result": "Appen gør det nemt og hurtigt at finde, tilpasse og følge opskrifter – med et moderne og brugervenligt design.",
+  "stack": [
+    "Android Studio",
+    "Server Actions",
+    "Dockerization",
+    "Image optimering"
+  ]
+}

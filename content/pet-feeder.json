@@ -1,0 +1,22 @@
+{
+  "type": "Semesterprojekt (IoT & Embedded)",
+  "technologies": [
+    "PSoC",
+    "Raspberry Pi",
+    "C",
+    "C++",
+    "React PWA",
+    "Docker",
+    "MQTT",
+    "REST API"
+  ],
+  "shortDescription": "Moderne, skalerbar IoT-løsning til automatisk fodring af kæledyr. Systemet kombinerer hardware (PSoC, Raspberry Pi) og software (React PWA, Docker) med sikker kommunikation.",
+  "features": [
+    "Automatisk fodring: Tidsplanlægning og manuel aktivering via app",
+    "Sensorovervågning: Vægt- og niveausensorer sikrer korrekt fodermængde og advarer ved lavt niveau",
+    "Fjernstyring: Brugeren kan styre dispenseren fra hvor som helst via PWA",
+    "Dataopsamling: Logning af fodringshistorik og sensorstatus",
+    "Sikkerhed: Adgangskontrol og sikker kommunikation mellem enheder"
+  ],
+  "result": "Projektet resulterede i en robust prototype, der demonstrerer automatiseret fodring, realtidsdata og fjernstyring. Løsningen kan udvides med flere sensorer eller smart home-integration."
+}

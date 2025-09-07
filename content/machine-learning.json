@@ -1,0 +1,25 @@
+{
+  "type": "Semesterprojekt (Machine Learning)",
+  "technologies": [
+    "Python",
+    "NumPy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "TensorFlow/Keras",
+    "spaCy"
+  ],
+  "shortDescription": "Fokus var at gå fra klassiske modeller til dybere arkitekturer og afslutte med NLP og embeddings.",
+  "features": [
+    "Lineær regression, logistisk regression, beslutningstræer og SVM",
+    "Datasætforståelse, præprocessering og målemetrikker (accuracy, precision/recall, confusion matrix)",
+    "Bias/variance trade-off",
+    "CNN på MNIST til håndskriftgenkendelse",
+    "Overfitting & regularisering: early stopping, dropout, L2",
+    "Modelkompleksitet og generalisering",
+    "Duplicate Question Detection (Quora dataset) med spaCy og SVM",
+    "Visualisering af embeddings med t-SNE",
+    "Egen pipeline for tekstrepræsentation"
+  ],
+  "result": "Projektet gav erfaring med både klassiske og dybe ML-modeller, computer vision og NLP. Resultatet var robuste baselines og bedre forståelse af generalisering og semantiske repræsentationer."
+}

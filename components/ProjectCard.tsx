@@ -3,7 +3,6 @@ export default function ProjectCard({
   slug,
   title,
   teaser,
-  image,
   stack,
   category,
   text,
@@ -11,18 +10,13 @@ export default function ProjectCard({
   slug: string;
   title: string;
   teaser: string;
-  image: string;
   stack: string[];
   category: string;
   text: string;
 }) {
   return (
     <div className="card glow overflow-hidden hover:scale-[1.01] transition">
-      <img
-        src={image}
-        alt={title}
-        className="w-full h-44 object-cover bg-black/30"
-      />
+    
       <div className="p-4 space-y-2">
         <div className="flex items-center justify-between">
           <h3 className="font-medium">{title}</h3>

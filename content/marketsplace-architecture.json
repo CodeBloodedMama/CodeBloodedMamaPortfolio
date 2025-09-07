@@ -1,0 +1,38 @@
+{
+  "type": "Semesterprojekt (Web Architecture & Orchestration)",
+  "technologies": [
+    "Next.js",
+    "Node/Express",
+    "PostgreSQL",
+    "Kubernetes",
+    "Helm",
+    "GraphQL",
+    "RabbitMQ",
+    "Redis",
+    "Grafana",
+    "OpenTelemetry"
+  ],
+  "shortDescription": "En skalerbar marketplace app, hvor sælgere kan oprette produkter og købere kan søge, lægge i kurv og gennemføre betaling. Orkestreret med Kubernetes, RabbitMQ til kommunikation mellem brugere og GraphQL til databasehåndtering. Arkitekturen prioriterer resiliens, skalerbarhed og hurtige releases.",
+  "features": [
+    "Web (Next.js) – SSR/ISR, produkt-/kategori-sider, checkout UI",
+    "BFF / API-Gateway – edge-API til klienter, aggregerer kald til services",
+    "GoogleAuth til login",
+    "Catalog Service – CRUD for produkter, kategorier, lager",
+    "Cart Service – session/brugerkurv (Redis for hurtighed)",
+    "Order Service – ordreoprettelse, status, idempotent opførsel",
+    "Notification Service – e-mail/push (async via event bus/queue)",
+    "Event Bus – RabbitMQ for asynkrone beskeder",
+    "Infra – Kubernetes, Grafana + OpenTelemetry"
+  ],
+  "result": "Projektet demonstrerer en moderne, robust og skalerbar webarkitektur med microservices, event-bus, orchestration og observability. Løsningen muliggør hurtige releases og høj resiliens.",
+  "stack": [
+    "Next.js",
+    "Node/Express",
+    "PostgreSQL",
+    "Kubernetes",
+    "Helm",
+    "GraphQL",
+    "RabbitMQ",
+    "Grafana"
+  ]
+}
