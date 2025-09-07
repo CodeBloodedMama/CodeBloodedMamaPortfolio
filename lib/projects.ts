@@ -1,6 +1,5 @@
 import projects from "@/content/projects.json";
 export type Project = {
-  text: string;
   slug: string;
   title: string;
   teaser: string;
