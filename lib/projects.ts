@@ -18,3 +18,5 @@ export const getProjects = () =>
 export const getProject = (slug: string) =>
   getProjects().find((p) => p.slug === slug);
 
+
+
