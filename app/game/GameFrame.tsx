@@ -55,8 +55,14 @@ export default function CVGameFrame({
           width: baseWidth,
           height: baseHeight,
           transform: `scale(${scale})`,
+          
         }}
       >
+        <p className="text-s text-white/60 text-center w-full mb-2">
+          Instructions: Find all the coins to unlock my businesscard
+        </p>
+      
+      
         {children}
       </div>
     </div>
